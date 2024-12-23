@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffea83;
+    margin: 5px;
+    padding: 10px;
+    border: 0.2px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.done {
+    background-color: #4bff6f94;
+    color: #155724;
+}
+
+.undo{
+    background-color:#ffea83b0;
+    color: #155724;
+}
+a{
+    background-color: rgba(255, 0, 0, 0.532);
+    border-radius: 7px;
+    text-decoration: none;
+    padding:0px 8px;
+    color: #000000;
+}
+a.delete{
+    background-color: red;
+}

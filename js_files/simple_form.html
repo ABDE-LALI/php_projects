@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple_form</title>
+    <script src="simple_form.js"></script>
+</head>
+
+<body>
+    <form id="FORM1" method="post" action="simple_form.php">
+        <label>Nom <input type="text" name="nom"></label><br>
+        <label>Age <input type="text" name="Age"><label><br>
+        <input type="submit" onclick="SoumettreForm()" name="name" value="SUBMIT">
+        <input type="button" onclick="ResetForm()" name="age" value="RESET">
+    </form>
+    <p id="message"></p>
+    <script>
+        function SubmitForm() {
+            document.getElementById("FORM1").submit();
+        }
+        debugger;
+        function ResetForm() {
+            document.getElementById("FORM1").reset();
+            document.getElementById("message").innerHTML = "Formulaire réinitialisé";
+        }
+    </script>
+</body>
+
+</html>
